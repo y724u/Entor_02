@@ -476,7 +476,6 @@ common
 body {
   font-family: "Noto Sans CJK JP", "Manrope", sans-serif " Courier New", Courier, monospace;
   color: #18191f;
-  background-color: azure;
 }
 
 body .container {
@@ -556,8 +555,30 @@ top
 .top_left_subtitle {
   font-size: 24px;
   margin-bottom: 57px;
+  letter-spacing: 0.04em;
 }
 
 .phone_apps img {
   padding-right: 26px;
+}
+
+/*================================================================
+about
+================================================================*/
+.about_wrapper {
+  padding-top: 80px;
+}
+
+.about_title {
+  font-size: 48px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.about_contents {
+  font-size: 24px;
+  line-height: 200%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding-bottom: 145px;
 }
