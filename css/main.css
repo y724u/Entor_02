@@ -474,15 +474,14 @@ template {
 common
 ================================================================*/
 body {
-  font-family: "Noto Sans CJK JP", "Manrope", sans-serif " Courier New", Courier, monospace;
-  color: #18191F;
+  font-family: "Noto Sans CJK JP", "Manrope", sans-serif " Courier New", Courier, monospace;
+  color: #18191f;
   background-color: azure;
 }
 
 body .container {
   width: 960px;
   margin: auto;
-  background-color: brown;
 }
 
 body a:hover {
@@ -493,7 +492,7 @@ body a:hover {
 header
 ================================================================*/
 .header {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .header-menu {
@@ -524,4 +523,41 @@ header
 
 .nav_list:last-child {
   padding-right: 0;
+}
+
+/*================================================================
+top
+================================================================*/
+.top {
+  background-image: url(../images/bg_color.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 732px;
+}
+
+.top_wrapper {
+  display: flex;
+  padding-top: 109px;
+  justify-content: space-between;
+}
+
+.top_left {
+  margin-top: 194px;
+}
+
+.top_left_title {
+  font-size: 63px;
+  font-weight: bold;
+  line-height: 88px;
+  padding-bottom: 32px;
+}
+
+.top_left_subtitle {
+  font-size: 24px;
+  margin-bottom: 57px;
+}
+
+.phone_apps img {
+  padding-right: 26px;
 }
