@@ -571,6 +571,7 @@ about
 
 .about_title {
   font-size: 48px;
+  font-weight: bold;
   text-align: center;
   padding-bottom: 60px;
 }
@@ -581,4 +582,66 @@ about
   letter-spacing: 0.03em;
   text-align: center;
   padding-bottom: 145px;
+}
+
+/*================================================================
+review
+================================================================*/
+.review {
+  background-color: #D2DAF7;
+  height: 616px;
+}
+
+.review_wrapper {
+  padding-top: 80px;
+}
+
+.review_title {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.review_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review_box_inner {
+  background-color: #FFFFFF;
+  width: 450px;
+  height: 290px;
+  border-radius: 12px;
+}
+
+.review_box_header {
+  display: flex;
+  padding: 27px 0 22px 21px;
+}
+
+.customer_picture img {
+  border-radius: 50%;
+  padding-right: 10px;
+}
+
+.review_box_right {
+  padding-top: 12px;
+}
+
+.review_box_title {
+  font-size: 18px;
+  font-family: "Manrope";
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.review_profile {
+  font-size: 16px;
+  font-family: "Manrope";
+}
+
+.review_box_contents {
+  margin: 0 24px;
+  line-height: 170%;
 }
