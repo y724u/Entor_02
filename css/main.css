@@ -588,7 +588,7 @@ about
 review
 ================================================================*/
 .review {
-  background-color: #D2DAF7;
+  background-color: #d2daf7;
   height: 616px;
 }
 
@@ -609,7 +609,7 @@ review
 }
 
 .review_box_inner {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 450px;
   height: 290px;
   border-radius: 12px;
@@ -644,4 +644,41 @@ review
 .review_box_contents {
   margin: 0 24px;
   line-height: 170%;
+}
+
+/*================================================================
+question
+================================================================*/
+.question {
+  height: auto;
+}
+
+.question_wrapper {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.question_title {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 104px;
+}
+
+.question_box {
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  padding: 24px 53px 24px 40px;
+}
+
+.question_box dt {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 24px;
+}
+
+.question_box dd {
+  font-size: 16px;
+  padding-left: 2px;
 }
