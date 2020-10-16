@@ -679,13 +679,13 @@ question
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 0.04em;
-  background-image: url(../images/Polygon.jpg);
+  background-image: url(../images/Polygon1.svg);
   background-repeat: no-repeat;
   background-position: right;
 }
 
 .question_box dt.active {
-  background: url(../images/Polygon2.jpg);
+  background: url(../images/Polygon2.svg);
   background-repeat: no-repeat;
   background-position: right;
 }
