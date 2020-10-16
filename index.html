@@ -112,22 +112,22 @@ question
         <dl class="question_list">
           <div class="question_box">
             <dt>全くの初心者ですが問題ありませんか？</dt>
-            <dd>問題ありません！将来的にどのようなエンジニアになりたいかなどのヒアリングを行った上で、あなたにあったあカリキュラムを作成いたします！</dd>
+            <dd>問題ありません！将来的にどのようなエンジニアになりたいかなどのヒアリングを行った上で、あなたにあったカリキュラムを作成いたします！</dd>
           </div>
 
           <div class="question_box">
             <dt>全くの初心者ですが問題ありませんか？</dt>
-            <dd>問題ありません！将来的にどのようなエンジニアになりたいかなどのヒアリングを行った上で、あなたにあったあカリキュラムを作成いたします！</dd>
+            <dd>問題ありません！将来的にどのようなエンジニアになりたいかなどのヒアリングを行った上で、あなたにあったカリキュラムを作成いたします！</dd>
           </div>
 
           <div class="question_box">
             <dt>全くの初心者ですが問題ありませんか？</dt>
-            <dd>問題ありません！将来的にどのようなエンジニアになりたいかなどのヒアリングを行った上で、あなたにあったあカリキュラムを作成いたします！</dd>
+            <dd>問題ありません！将来的にどのようなエンジニアになりたいかなどのヒアリングを行った上で、あなたにあったカリキュラムを作成いたします！</dd>
           </div>
 
           <div class="question_box">
             <dt>全くの初心者ですが問題ありませんか？</dt>
-            <dd>問題ありません！将来的にどのようなエンジニアになりたいかなどのヒアリングを行った上で、あなたにあったあカリキュラムを作成いたします！</dd>
+            <dd>問題ありません！将来的にどのようなエンジニアになりたいかなどのヒアリングを行った上で、あなたにあったカリキュラムを作成いたします！</dd>
           </div>
 
         </dl>
@@ -137,6 +137,31 @@ question
 <!-- /*================================================================
 footer
 ================================================================*/ -->
+<section class="footer">
+  <div class="footer_wrapper">
+    <img  class="footer_image" src=".//images/footer_logo.png" alt="ENTOR">
+    <ul class="footer_list">
+      <li class="footer_item"><a href="#">運営会社</a></li>
+      <li class="footer_item"><a href="#">利用規約</a></li>
+      <li class="footer_item"><a href="#">プライバシーポリシー</a></li>
+      <li class="footer_item"><a href="#">問い合わせ</a></li>
+    </ul>
+    <p class="footer_copyright">© 2020 ENTOR</p>
+  </div>
+</section>
+<!---================================================================
+js
+================================================================-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+  $(function(){
+$(".question_box dt").on("click", function() {
+$(this).next().slideToggle();
+$(this).toggleClass("active");
+});
+});
+</script>
 </body>
 
 </html>

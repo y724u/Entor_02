@@ -197,32 +197,76 @@ question
   border: 1px solid #cccccc;
   border-radius: 8px;
   margin-bottom: 32px;
-  padding: 24px 53px 24px 40px;
+  padding: 24px 40px 24px 40px;
   position: relative;
 
   dt {
+    display: block;
     font-weight: bold;
     font-size: 18px;
-    padding-bottom: 24px;
+    letter-spacing: 0.04em;
+    background-image: url(../images/Polygon.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+
+    &.active{
+      background:url(../images/Polygon2.jpg);
+      background-repeat: no-repeat;
+      background-position: right;
+      }
+
     &:hover {
       cursor: pointer;
     }
   }
 
-  dt::after {
-    content: url(../images/Polygon.jpg);
-    display: block;
-    position: absolute;
-    right: 27px;
-    top: 20px;
-  }
-
   dd {
     font-size: 16px;
+    letter-spacing: 0.04em;
     line-height: 24px;
     padding-left: 2px;
+    padding-top: 24px;
+    display: none;
   }
 }
 /*================================================================
 footer
 ================================================================*/
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer_wrapper {
+  height: auto;
+  width: 488px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.footer_image {
+  padding-bottom: 31px;
+}
+
+.footer_list {
+  display: flex;
+}
+
+.footer_item {
+  font-family: "Manrope";
+  padding-right: 40px;
+  padding-bottom: 40px;
+  font-size: 16px;
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.footer_copyright {
+  font-family: "Manrope";
+  color: #d9dbe1;
+  font-size: 14px;
+}
