@@ -670,6 +670,7 @@ question
   border-radius: 8px;
   margin-bottom: 32px;
   padding: 24px 53px 24px 40px;
+  position: relative;
 }
 
 .question_box dt {
@@ -678,7 +679,24 @@ question
   padding-bottom: 24px;
 }
 
+.question_box dt:hover {
+  cursor: pointer;
+}
+
+.question_box dt::after {
+  content: url(../images/Polygon.jpg);
+  display: block;
+  position: absolute;
+  right: 27px;
+  top: 20px;
+}
+
 .question_box dd {
   font-size: 16px;
+  line-height: 24px;
   padding-left: 2px;
 }
+
+/*================================================================
+footer
+================================================================*/

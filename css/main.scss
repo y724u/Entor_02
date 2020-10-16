@@ -198,19 +198,31 @@ question
   border-radius: 8px;
   margin-bottom: 32px;
   padding: 24px 53px 24px 40px;
+  position: relative;
 
   dt {
     font-weight: bold;
     font-size: 18px;
     padding-bottom: 24px;
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   dt::after {
-    background-image: ;
+    content: url(../images/Polygon.jpg);
+    display: block;
+    position: absolute;
+    right: 27px;
+    top: 20px;
   }
 
   dd {
     font-size: 16px;
+    line-height: 24px;
     padding-left: 2px;
   }
 }
+/*================================================================
+footer
+================================================================*/
