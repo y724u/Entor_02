@@ -843,4 +843,37 @@ review
   .review {
     height: 838px;
   }
+  .review_wrapper {
+    padding-top: 40px;
+  }
+  .review_title {
+    font-size: 32px;
+    padding-bottom: 32px;
+  }
+  .review_box {
+    display: block;
+  }
+  .review_box_inner {
+    width: 327px;
+    height: 282px;
+    margin-bottom: 24px;
+  }
+  .review_box_header {
+    display: flex;
+    padding: 40px 9 29px 17px;
+  }
+  .review_box_title {
+    font-size: 16px;
+  }
+  .review_profile {
+    font-size: 14px;
+  }
+  .review_box_contents {
+    margin: 0 16px;
+  }
+  .customer_review {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+  }
 }
