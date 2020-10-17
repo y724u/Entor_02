@@ -756,3 +756,91 @@ footer
 /*================================================================
 スマホ対応
 ================================================================*/
+@media only screen and (max-width: 767px) {
+  /*================================================================
+common
+================================================================*/
+  body .container {
+    width: 327px;
+    margin: auto;
+  }
+  /*================================================================
+header
+================================================================*/
+  .header_left {
+    margin: 0px 0 0 20px;
+  }
+  .header-right {
+    margin-right: 24px;
+  }
+  .header_nav {
+    display: none;
+  }
+  /*================================================================
+top
+================================================================*/
+  .top {
+    height: 572px;
+  }
+  .top_wrapper {
+    display: block;
+    padding-top: 59px;
+  }
+  .top_left {
+    margin-top: 0;
+  }
+  .top_left_title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 45px;
+    padding-bottom: 16px;
+  }
+  .top_left_subtitle {
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 37px;
+    letter-spacing: 0.04em;
+  }
+  .phone_apps {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 33px;
+  }
+  .phone_apps img {
+    padding-right: 0;
+    width: 134px;
+    height: 40px;
+  }
+  .google_logo {
+    margin-right: 17px;
+  }
+  .top_right {
+    text-align: center;
+  }
+  .top_right img {
+    width: 108px;
+    height: 218px;
+  }
+  /*================================================================
+about
+================================================================*/
+  .about_wrapper {
+    padding-top: 40px;
+  }
+  .about_title {
+    font-size: 32px;
+    padding-bottom: 32px;
+  }
+  .about_contents {
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 80px;
+    text-align: left;
+  }
+  /*================================================================
+review
+================================================================*/
+  .review {
+    height: 838px;
+  }
+}
