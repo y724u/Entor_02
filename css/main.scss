@@ -283,73 +283,66 @@ footer
   /*================================================================
 common
 ================================================================*/
-body .container {
-  width: 650px;
-  margin: auto;
-}
-/*================================================================
+  body .container {
+    width: 650px;
+    margin: auto;
+  }
+  /*================================================================
 header
 ================================================================*/
-.header_left {
-  margin: 0px 0 0 24px;
-}
+  .header_left {
+    margin: 0px 0 0 24px;
+  }
 
-.header-right {
-  margin-right: 28px;
-}
+  .header-right {
+    margin-right: 28px;
+  }
 
-/*================================================================
+  /*================================================================
 top
 ================================================================*/
-.top {
-  height: auto;
-}
+  .top {
+    height: auto;
+  }
 
-.top_wrapper {
-  padding-bottom: 100px;
-}
+  .top_wrapper {
+    padding-bottom: 100px;
+  }
 
-.top_left_title {
-  font-size: 38px;
-  font-weight: bold;
-  line-height: 45px;
-  padding-bottom: 26px;
-}
+  .top_left_title {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 45px;
+    padding-bottom: 26px;
+  }
 
-.top_left_subtitle {
-  font-size: 14px;
-  line-height: 32px;
-  margin-bottom: 37px;
-  letter-spacing: 0.04em;
-}
-/*================================================================
+  .top_left_subtitle {
+    font-size: 14px;
+    line-height: 32px;
+    margin-bottom: 37px;
+    letter-spacing: 0.04em;
+  }
+  /*================================================================
 about
 ================================================================*/
 
-
-/*================================================================
+  /*================================================================
 review
 ================================================================*/
 
-.review_box_inner {
-  width: 310px;
-  height: 310px;
-}
+  .review_box_inner {
+    width: 310px;
+    height: 310px;
+  }
 
-.review_box_header {
-  padding: 20px 10px 20px 10px ;
-}
+  .review_box_header {
+    padding: 20px 10px 20px 10px;
+  }
 
-.review_box_title {
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-
-
-
-
-
+  .review_box_title {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
 }
 
 /*================================================================
