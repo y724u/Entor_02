@@ -36,6 +36,11 @@ header
 
 .header_left {
   margin: 0px 0 0 127px;
+
+  img {
+    width: 113px;
+    height: 35px;
+  }
 }
 
 .header-right {
@@ -44,7 +49,7 @@ header
 
 .header_nav {
   display: flex;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -73,7 +78,7 @@ top
 }
 
 .top_left {
-  margin-top: 194px;
+  margin-top: 85px;
 }
 
 .top_left_title {
@@ -100,10 +105,10 @@ about
 }
 
 .about_title {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .about_contents {
@@ -111,22 +116,22 @@ about
   line-height: 200%;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-bottom: 145px;
+  padding-bottom: 96px;
 }
 /*================================================================
 review
 ================================================================*/
 .review {
   background-color: #d2daf7;
-  height: 616px;
+  height: 588px;
 }
 
 .review_wrapper {
-  padding-top: 80px;
+  padding-top: 92px;
 }
 
 .review_title {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
   padding-bottom: 60px;
@@ -183,14 +188,14 @@ question
 
 .question_wrapper {
   padding-top: 80px;
-  padding-bottom: 120px;
+  padding-bottom: 96px;
 }
 
 .question_title {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 104px;
+  padding-bottom: 56px;
 }
 
 .question_box {
@@ -209,11 +214,11 @@ question
     background-repeat: no-repeat;
     background-position: right;
 
-    &.active{
-      background:url(../images/Polygon2.svg);
+    &.active {
+      background: url(../images/Polygon2.svg);
       background-repeat: no-repeat;
       background-position: right;
-      }
+    }
 
     &:hover {
       cursor: pointer;
@@ -275,12 +280,10 @@ footer
 タブレット対応
 ================================================================*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-
 }
 
 /*================================================================
 スマホ対応
 ================================================================*/
 @media only screen and (max-width: 767px) {
-
 }

@@ -507,13 +507,18 @@ header
   margin: 0px 0 0 127px;
 }
 
+.header_left img {
+  width: 113px;
+  height: 35px;
+}
+
 .header-right {
   margin-right: 123px;
 }
 
 .header_nav {
   display: flex;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -543,7 +548,7 @@ top
 }
 
 .top_left {
-  margin-top: 194px;
+  margin-top: 85px;
 }
 
 .top_left_title {
@@ -571,10 +576,10 @@ about
 }
 
 .about_title {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .about_contents {
@@ -582,7 +587,7 @@ about
   line-height: 200%;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-bottom: 145px;
+  padding-bottom: 96px;
 }
 
 /*================================================================
@@ -590,15 +595,15 @@ review
 ================================================================*/
 .review {
   background-color: #d2daf7;
-  height: 616px;
+  height: 588px;
 }
 
 .review_wrapper {
-  padding-top: 80px;
+  padding-top: 92px;
 }
 
 .review_title {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
   padding-bottom: 60px;
@@ -656,14 +661,14 @@ question
 
 .question_wrapper {
   padding-top: 80px;
-  padding-bottom: 120px;
+  padding-bottom: 96px;
 }
 
 .question_title {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 104px;
+  padding-bottom: 56px;
 }
 
 .question_box {
