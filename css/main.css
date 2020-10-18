@@ -2,7 +2,7 @@
 /*! destyle.css v1.0.15 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model */
 /* ============================================ */
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Noto+Sans+JP:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Noto+Sans+JP&display=swap");
 * {
   box-sizing: border-box;
 }
