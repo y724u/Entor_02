@@ -1,14 +1,13 @@
 @charset "UTF-8";
 @import "reset";
 @import "drawer";
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Noto+Sans+JP:wght@100&display=swap');
 
 /*================================================================
 common
 ================================================================*/
 body {
-  font-family: "Noto Sans CJK JP", "Manrope", sans-serif " Courier New", Courier,
-    monospace;
+  font-family: "Noto Sans CJK JP" , 'Noto Sans JP', sans-serif,'Manrope', sans-serif;
   color: #18191f;
 
   .container {
@@ -23,10 +22,6 @@ body {
 /*================================================================
 header
 ================================================================*/
-.header {
-  
-}
-
 .header-menu {
   position: fixed;
   z-index: 100;
@@ -408,12 +403,12 @@ header
 top
 ================================================================*/
   .top {
-    height: 572px;
+    height: auto;
   }
 
   .top_wrapper {
     display: block;
-    padding-top: 59px;
+    padding-top: 100px;
   }
 
   .top_left {
