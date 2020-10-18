@@ -1092,11 +1092,12 @@ review
 ================================================================*/
 .review {
   background-color: #d2daf7;
-  height: 588px;
+  height: auto;
 }
 
 .review_wrapper {
-  padding-top: 92px;
+  padding-top: 105px;
+  padding-bottom: 90px;
 }
 
 .review_title {
@@ -1120,12 +1121,12 @@ review
 
 .review_box_header {
   display: flex;
-  padding: 27px 0 22px 21px;
+  padding: 29px 0 29px 22px;
 }
 
 .customer_picture img {
   border-radius: 50%;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 .review_box_right {
@@ -1136,7 +1137,7 @@ review
   font-size: 18px;
   font-family: "Manrope";
   font-weight: bold;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 .review_profile {
